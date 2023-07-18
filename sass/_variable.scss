@@ -1,0 +1,27 @@
+$color_p: #2b2b2b;
+$color_h1: #2a2a2a;
+$color_bg_btn_icon: #285e67;
+$color_bg_icon: #ebbfae;
+$bg_startsWellbeing__bottom: #fce2d7;
+$color_white: #fff;
+
+@mixin font_p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@mixin font_h2 {
+  font-size: 50.52px;
+  font-weight: 600;
+  line-height: 62px;
+  color: $color_p;
+}
+
+@mixin btn {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 67px;
+}

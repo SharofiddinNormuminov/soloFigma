@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minimalistic-Responsive-Landing-Pages</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style.css" />
     <script
       src="https://kit.fontawesome.com/3f11f82952.js"
       crossorigin="anonymous"
@@ -13,10 +13,10 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="navbar container">
         <div class="nav__logo">
           <div class="circle"></div>
-          <h4>Logo</h4>
+          <h3>Logo</h3>
         </div>
         <div class="nav__links">
           <ul>
@@ -28,7 +28,7 @@
           <i class="fa-solid fa-bars"></i>
         </div>
       </nav>
-      <section class="intro">
+      <section class="intro container">
         <h1>The dawn of a new era in health is here</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam
@@ -46,19 +46,19 @@
       </section>
     </header>
     <main>
-      <section class="services">
+      <section class="services container">
         <div class="services__left">
           <h2>Wellbeing is welldoing</h2>
           <div class="services__left__cards">
             <div class="services__left__cards__card">
-              <img src="./img/leaf.svg" alt="leaf icon" />
+              <img src="./img/leaf_icon.svg" alt="leaf icon" />
               <p>
                 Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
                 Diam lacus platea orci vel elit.
               </p>
             </div>
             <div class="services__left__cards__card">
-              <img src="./img/leaf.svg" alt="leaf icon" />
+              <img src="./img/leaf_icon.svg" alt="leaf icon" />
               <p>
                 Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
                 Diam lacus platea orci vel elit.
@@ -70,13 +70,13 @@
           <img src="./img/wellbeingWelldoing.png" alt="services" />
         </div>
       </section>
-      <section class="info">
+      <section class="info container">
         <div class="info__left">
           <img src="./img/produce.png" alt="Fresh organic produce" />
         </div>
         <div class="info__right">
           <h2>Fresh organic produce</h2>
-          <p>
+          <p class="info__right__p">
             Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam
             lacus platea orci vel elit blandit facilisis enim risus. Ut
             tristique eget integer odio nec vulputate consequat. Elit mattis ac
@@ -113,31 +113,33 @@
           </div>
         </div>
       </section>
-      <section class="services">
-        <div class="services__left">
-          <h2>You are what you eat</h2>
-          <div class="services__left__cards">
-            <div class="services__left__cards__card">
-              <img src="./img/leaf.svg" alt="leaf icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
-                Diam lacus platea orci vel elit.
-              </p>
-            </div>
-            <div class="services__left__cards__card">
-              <img src="./img/leaf.svg" alt="leaf icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
-                Diam lacus platea orci vel elit.
-              </p>
+      <section class="services container">
+        <div id="services__content">
+          <div class="services__left">
+            <h2>You are what you eat</h2>
+            <div class="services__left__cards">
+              <div class="services__left__cards__card">
+                <img src="./img/leaf_black.svg" alt="leaf icon" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Quam ut consequat at
+                  a. Diam lacus platea orci vel elit.
+                </p>
+              </div>
+              <div class="services__left__cards__card">
+                <img src="./img/leaf_black.svg" alt="leaf icon" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Quam ut consequat at
+                  a. Diam lacus platea orci vel elit.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="services__right">
-          <img src="./img/whatYouEat.png" alt="services" />
+          <div class="services__right">
+            <img src="./img/whatYouEat.png" alt="services" />
+          </div>
         </div>
       </section>
-      <section class="startsWellbeing">
+      <section class="startsWellbeing container">
         <div class="startsWellbeing__content">
           <div class="startsWellbeing__content__icon">
             <img src="./img/leaf.svg" alt="leaf icon" />
@@ -148,7 +150,7 @@
             lacus platea orci vel elit blandit facilisis enim risus. Ut
             tristique eget integer odio nec.
           </p>
-          <button>Join now</button>
+          <a>Join now</a>
         </div>
         <div class="startsWellbeing__bottom">
           <div class="startsWellbeing__bottom__child">
@@ -171,25 +173,27 @@
       </section>
     </main>
     <footer>
-      <nav class="navbar">
-        <div class="nav__logo">
-          <div class="circle"></div>
-          <h4>Logo</h4>
+      <div class="footer container">
+        <div class="footer_content">
+          <div class="footer__logo">
+            <div class="circle"></div>
+            <h4>Logo</h4>
+          </div>
+          <div class="footer__links">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="nav__links">
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+        <div class="saytlar">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-facebook"></i>
         </div>
-      </nav>
-      <div class="saytlar">
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-facebook"></i>
       </div>
     </footer>
   </body>

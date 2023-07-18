@@ -1,0 +1,123 @@
+.startsWellbeing {
+  color: #fff;
+  .startsWellbeing__content {
+    width: 100%;
+    height: 354px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 12px;
+    padding-top: 71px;
+    background-image: url(../img/startsWellbeing.png);
+    .startsWellbeing__content__icon {
+      img {
+        width: 46.558px;
+        height: 41.474px;
+        display: flex;
+        margin: 0 auto;
+      }
+    }
+    h3 {
+      max-width: 200px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 2.1rem;
+      font-weight: 600;
+      line-height: 31px;
+      margin-top: 13px;
+    }
+    p {
+      display: none;
+    }
+    a {
+      width: 198px;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+      padding: 16px 0;
+      border-radius: 67px;
+      border: 1px solid #f4f4f4;
+      display: flex;
+      justify-content: center;
+      margin: 13px auto 0;
+    }
+  }
+  .startsWellbeing__bottom {
+    width: 85%;
+    border-radius: 12px;
+    background: $bg_startsWellbeing__bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 4.9rem;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    transform: translateY(-60px);
+    img {
+      display: flex;
+      margin: 0 auto;
+    }
+    h5 {
+      text-align: center;
+      font-size: 2.1rem;
+      font-weight: 400;
+      line-height: 24px;
+      color: $color_h1;
+      margin-top: 18px;
+    }
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .startsWellbeing {
+    .startsWellbeing__content {
+      height: 677px;
+      border-radius: unset;
+      padding-top: 110px;
+      .startsWellbeing__content__icon {
+        img {
+          width: 92px;
+          height: 82px;
+        }
+      }
+      h3 {
+        max-width: 640px;
+        font-size: 3.8rem;
+        line-height: 36px;
+      }
+      p {
+        max-width: 650px;
+        display: flex;
+        margin: 0 auto;
+        display: block;
+        @include font_p;
+        color: $color_white;
+        margin-top: 12px;
+      }
+      a {
+        margin: 28px auto 0;
+      }
+    }
+    .startsWellbeing__bottom {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      transform: translateY(-204px);
+      padding: 71px 66px;
+      column-gap: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .startsWellbeing {
+    .startsWellbeing__bottom {
+      grid-template-columns: repeat(4, 1fr);
+      padding: 119px 66px;
+      transform: translateY(-190px);
+
+    }
+  }
+}
